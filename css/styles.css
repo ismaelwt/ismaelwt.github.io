@@ -30,8 +30,8 @@ blockquote {
     text-align: Center;
 }
 #design {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     padding-right: 15%;
     padding-left: 15%;
     height: auto;
@@ -85,8 +85,8 @@ blockquote {
 }
 .icons {
     text-align: center;
-    max-width: 800px;
-    max-height: 300px;
+    max-width: 1366px;
+    max-height: 768px;
 }
 .socialMediaSpan {
     border: 1px solid;
