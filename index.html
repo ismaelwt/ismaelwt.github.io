@@ -5,29 +5,41 @@
 	<link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link href="css/styles.css" rel="stylesheet" />
 	<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+	window.OneSignal = window.OneSignal || [];
+	OneSignal.push(function() {
+		OneSignal.init({
+		appId: "0633ed07-4594-4713-b75f-ce764108dffe",
+		});
+	});
+	</script>
 </head>
 
-<body>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<div class="container-fluid" id="about">
-			<h1></h1>
-			<p>My name is Ismael Teixeira. I have always been fascinated by computers and  and how they works. I love simple and elegant designs that accomplish
-more with less.
-			</p>
+
+			<h1 class="anim">Hi, i'm a software developer.</h1>
+
+			<h2>and</h2>
+
+			<h3 class="anim-delayed-3ms">I work Web Applications in all cycle from app.</h3>
+
+			
+			
 		</div>
 		<div class="container-fluid" id="design">
 			<h1 id="remove_opacity">Created By Me</h1>
-			<h2 id="remove_opacity">Check on Github and Codepen</h2>
+			<h2 id="remove_opacity">Check on Github</h2>
 			<a href="https://github.com/ismaelwt" target="_blank"><span class="socialMediaSpan fa fa-github fa-3x codepenBtn"></span></a>
-			<a href="https://codepen.io/ismaelwt/" target="_blank"><span class="socialMediaSpan fa fa-codepen fa-3x codepenBtn"></span></a>
 		</div>
 		<div class="container" id="contact">
 			<h1>FIND ME</h1>
 			<div class="icons center-block">
 				<a href="https://www.linkedin.com/in/ismael-teixeira-97602911b/" target="_blank"><span class="socialMediaSpan fa fa-linkedin fa-3x linkedinBtn"></span></a>
 				<a href="https://github.com/ismaelwt" target="_blank"><span class="socialMediaSpan fa fa-github fa-3x codepenBtn"></span></a>
-				<a href="https://codepen.io/ismaelwt/" target="_blank"><span class="socialMediaSpan fa fa-codepen fa-3x codepenBtn"></span></a>
 			</div>
 			<div>
 				<h5>ismaelnos5@gmail.com<h5>
@@ -35,6 +47,7 @@ more with less.
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="./js/index.js"></script>
 	</body>
 
 </html>
